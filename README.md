@@ -1,4 +1,4 @@
-# Emotions-Detection
+# Emotions Detection
 
 ### Dataset
 
@@ -20,8 +20,10 @@ Three models were made using 3 different techniques:
 ### Performance
 
 Random Forest Classifier: 87.32%
+
 Neural Network Classifier: 85.98%
-BERT Training Model: 91%
+
+BERT Training Model: 92%
 
 ### References:
 
