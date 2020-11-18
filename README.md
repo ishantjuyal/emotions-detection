@@ -21,9 +21,9 @@ Three models were made using 3 different techniques:
 
 Random Forest Classifier: 87.32%
 
-Neural Network Classifier: 85.98%
+Neural Network Classifier: 92.1%
 
-BERT Training Model: 92%
+BERT Training Model: 92.05%
 
 ### References:
 
