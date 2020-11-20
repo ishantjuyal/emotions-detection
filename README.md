@@ -19,15 +19,15 @@ Three models were made using 3 different techniques:
 
 ### Performance
 
-Random Forest Classifier: 87.32%
+Random Forest Classifier: 88.04%
 
-Neural Network Classifier: 92.1%
+Neural Network Classifier: 81.40%
 
-BERT Training Model: 92.24%
+BERT Training Model: 92.47%
 
 ### References:
 
-[Dataset](https://www.kaggle.com/c/sa-emotions)
+[Dataset](https://www.kaggle.com/ishantjuyal/emotions-in-text)
 
 [Blog on Emotion Detection and Sentiment Analysis](https://medium.com/neuronio/from-sentiment-analysis-to-emotion-recognition-a-nlp-story-bcc9d6ff61ae)
 
