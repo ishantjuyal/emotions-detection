@@ -23,7 +23,7 @@ Random Forest Classifier: 88.04%
 
 Neural Network Classifier: 81.40%
 
-BERT Training Model: 92.47%
+BERT Training Model: 93.8%
 
 ### References:
 
