@@ -1,20 +1,16 @@
 import pandas as pd
+import re
 
 df = pd.read_csv(r"C:\Users\ishan\OneDrive\Desktop\Projects\Emotions-Detection\Data\Emotions_merged.csv", engine = "python")
-text = df['Text']
-emo = df['Emotion']
-
-text_new = []
-emo_new = []
+text = list(df['Text'])
+emo = list(df['Emotion'])
 
 for i in range(len(text)):
-    if text[i] not in text_new:
-        text_new.append(text[i])
-        emo_new.append(emo[i])
+    sentence = text[i]
+    sentence = re.sub(r'[^\x00-\x7f]',r'', sentence)
+    text[i] = sentence
 
-print(len(text))
-print(len(text_new))
 
-adict = {"Text": text_new, 'Emotion': emo_new}
+adict = {"Text": text, 'Emotion': emo}
 data = pd.DataFrame(adict)
 data.to_csv("Emotions_merged_new.csv", index = False)
